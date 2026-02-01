@@ -15,7 +15,7 @@ import { AuthModule } from './auth/auth.module';
       password: '',
       database: 'interview_db',
       autoLoadEntities: true,
-      synchronize: true,
+      synchronize: false,
     }),
     UserModule,
     InventoryModule,
